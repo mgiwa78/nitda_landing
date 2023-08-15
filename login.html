@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login</title>
+    <meta name="description" content="Multipurpose HTML template." />
+    <script src="scripts/jquery.min.js"></script>
+    <link rel="stylesheet" href="scripts/bootstrap/css/bootstrap.css" />
+    <script src="scripts/script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/content-box.css" />
+    <link rel="stylesheet" href="css/image-box.css" />
+    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="scripts/flexslider/flexslider.css" />
+    <link rel="stylesheet" href="scripts/magnific-popup.css" />
+    <link rel="stylesheet" href="scripts/php/contact-form.css" />
+    <link rel="stylesheet" href="scripts/social.stream.css" />
+    <link rel="icon" href="images/cropped-NITDA-logo-180x180.png" />
+    <link rel="stylesheet" href="skin.css" />
+  </head>
+  <body>
+    <div id="preloader"></div>
+    <header class="fixed-top scroll-change" data-menu-anima="fade-in">
+      <div
+        class="navbar navbar-default mega-menu-fullwidth navbar-fixed-top"
+        role="navigation"
+      >
+        <div class="navbar navbar-main">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle">
+                <i class="fa fa-bars"></i>
+              </button>
+              <a class="navbar-brand" href="index.html">
+                <img
+                  width="100"
+                  class="logo-default"
+                  src="images/cropped-cropped-NITDA-Logo-new-03.png"
+                  alt="logo"
+                />
+                <img
+                  width="100"
+                  class="logo-retina"
+                  src="images/cropped-cropped-NITDA-Logo-new-03.png"
+                  alt="logo"
+                />
+              </a>
+            </div>
+            <div class="collapse navbar-collapse mt-3">
+              <ul class="nav navbar-nav">
+                <li>
+                  <a href="index.html">Home </a>
+                </li>
+
+                <li class="dropdown">
+                  <a
+                    href="#"
+                    class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    >Documents <span class="caret"></span
+                  ></a>
+                  <ul class="dropdown-menu multi-level">
+                    <li class="dropdown dropdown-submenu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                        >Approve policy documents</a
+                      >
+                    </li>
+                    <li class="dropdown dropdown-submenu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                        >Rule making process</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#FAQ">FAQ </a>
+                </li>
+                <li>
+                  <a href="#">Search </a>
+                </li>
+                <li>
+                  <a href="#">Contact </a>
+                </li>
+              </ul>
+              <div
+                class="nav navbar-nav navbar-right"
+                style="padding: 10px; display: flex; gap: 4px"
+              >
+                <a
+                  href="./login.html"
+                  style="background-color: #014e2c; color: #fff"
+                  class="btn anima anima-fade-right"
+                >
+                  Login
+                </a>
+                <a
+                  href="./register.html"
+                  class="btn btn-border anima anima-fade-right"
+                >
+                  Register
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="header-base">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="title-base text-left">
+              <h1>Login</h1>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <ol class="breadcrumb b">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">Login</a></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-empty">
+      <hr class="space m" />
+      <div
+        class="row"
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100vw;
+          padding: 60px 0;
+        "
+      >
+        <div class="col-md-4">
+          <form
+            action="http://www.framework-y.com/scripts/php/contact-form.php"
+            class="form-box form-ajax"
+            method="post"
+          >
+            <div class="row">
+              <div class="col-md-12">
+                <p>Email</p>
+                <input
+                  id="email"
+                  name="email"
+                  placeholder="email"
+                  type="email"
+                  class="form-control form-value"
+                  required=""
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <hr class="space xs" />
+                <p>Password</p>
+                <input
+                  id="password"
+                  name="password"
+                  placeholder="password"
+                  type="password"
+                  class="form-control form-value"
+                />
+                <hr class="space xs" />
+
+                <button class="btn-sm btn" type="submit">Login</button>
+              </div>
+            </div>
+            <div class="success-box">
+              <div class="alert alert-success">
+                Congratulations. Your message has been sent successfully
+              </div>
+            </div>
+            <div class="error-box">
+              <div class="alert alert-warning">
+                Error, please retry. Your message has not been sent
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <i class="scroll-top scroll-top-mobile fa fa-sort-asc"></i>
+    <footer class="footer-base">
+      <div class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 footer-left">
+              <img
+                width="120"
+                src="images/cropped-cropped-NITDA-Logo-new-03.png"
+                alt=""
+              />
+              <hr class="space m" />
+              <p>Collins Street West 8007, San Fransico, United States.</p>
+              <hr />
+              <div class="tag-row">
+                <span>support@company.com</span>
+                <span>320-55500678</span>
+              </div>
+            </div>
+            <div class="col-md-4 footer-center text-left">
+              <ul class="fa-ul">
+                <li>
+                  <i class="fa-li im-phone"></i> +234 92 920 263,
+                  +2348168401851, +2340752420189
+                </li>
+                <li><i class="fa-li im-mail"></i> info@nitda.gov.ng</li>
+                <li>
+                  <i class="fa-li im-map"></i>No. 28, Port Harcourt Crescent,
+                  Off Gimbiya Street, P.M.B 564, Area 11 Garki, Abuja, Nigeria.
+                </li>
+              </ul>
+              <hr class="space s" />
+              <div class="btn-group social-group btn-group-icons">
+                <a target="_blank" href="#" data-social="share-facebook"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+                <a target="_blank" href="#" data-social="share-twitter"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+                <a target="_blank" href="#" data-social="share-google"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+                <a target="_blank" href="#" data-social="share-linkedin"
+                  ><i class="fa fa-youtube"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-4 footer-right text-left">
+              <ul class="ul-squares">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Documents</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row copy-row">
+          <div class="col-md-12 copy-text">
+            Copyright © 2023 NITDA | All Rights Reserved
+          </div>
+        </div>
+      </div>
+      <link rel="stylesheet" href="scripts/iconsmind/line-icons.min.css" />
+      <script async src="scripts/bootstrap/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="scripts/imagesloaded.min.js"></script>
+      <script type="text/javascript" src="scripts/parallax.min.js"></script>
+      <script
+        type="text/javascript"
+        src="scripts/flexslider/jquery.flexslider-min.js"
+      ></script>
+      <script
+        type="text/javascript"
+        async
+        src="scripts/isotope.min.js"
+      ></script>
+      <script type="text/javascript" src="scripts/google.maps.min.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+      <script
+        type="text/javascript"
+        async
+        src="scripts/php/contact-form.js"
+      ></script>
+      <script
+        type="text/javascript"
+        async
+        src="scripts/jquery.progress-counter.js"
+      ></script>
+      <script
+        type="text/javascript"
+        async
+        src="scripts/jquery.tab-accordion.js"
+      ></script>
+      <script
+        type="text/javascript"
+        async
+        src="scripts/bootstrap/js/bootstrap.popover.min.js"
+      ></script>
+      <script
+        type="text/javascript"
+        async
+        src="scripts/jquery.magnific-popup.min.js"
+      ></script>
+      <script src="scripts/social.stream.min.js"></script>
+      <script src="scripts/smooth.scroll.min.js"></script>
+    </footer>
+  </body>
+
+  <!-- Mirrored from templates.framework-y.com/techline/demo-main/index-services.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 14 Aug 2023 13:32:26 GMT -->
+</html>
