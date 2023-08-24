@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<!--[if lt IE 10]> <html  lang="en" class="iex"> <![endif]-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Register</title>
+    <meta name="description" content="Multipurpose HTML template." />
+    <script src="assets/scripts/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/scripts/bootstrap/css/bootstrap.css" />
+    <script src="assets/scripts/script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="assets/css/content-box.css" />
+    <link rel="stylesheet" href="assets/css/image-box.css" />
+    <link rel="stylesheet" href="assets/css/animations.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/scripts/flexslider/flexslider.css" />
+    <link rel="stylesheet" href="assets/scripts/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/scripts/php/contact-form.css" />
+    <link rel="stylesheet" href="assets/scripts/social.stream.css" />
+    <link rel="icon" href="assets/images/cropped-NITDA-logo-180x180.png" />
+    <link rel="stylesheet" href="assets/skin.css" />
+  </head>
+  <body>
+    <div id="preloader"></div>
+    <header class="fixed-top scroll-change" data-menu-anima="fade-in">
+      <div
+        class="navbar navbar-default mega-menu-fullwidth navbar-fixed-top"
+        role="navigation"
+      >
+        <div class="navbar navbar-main">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle">
+                <i class="fa fa-bars"></i>
+              </button>
+              <a class="navbar-brand" href="index.html">
+                <img
+                  width="100"
+                  class="logo-default"
+                  src="assets/images/cropped-cropped-NITDA-Logo-new-03.png"
+                  alt="logo"
+                />
+                <img
+                  width="100"
+                  class="logo-retina"
+                  src="assets/images/cropped-cropped-NITDA-Logo-new-03.png"
+                  alt="logo"
+                />
+              </a>
+            </div>
+            <div class="collapse navbar-collapse mt-3">
+              <ul class="nav navbar-nav">
+                <li>
+                  <a href="index.html">Home </a>
+                </li>
+
+                <li class="dropdown">
+                  <a
+                    href="#"
+                    class="dropdown-toggle"
+                    data-toggle="dropdown"
+                    role="button"
+                    >Documents <span class="caret"></span
+                  ></a>
+                  <ul class="dropdown-menu multi-level">
+                    <li class="dropdown dropdown-submenu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                        >Approve policy documents</a
+                      >
+                    </li>
+                    <li class="dropdown dropdown-submenu">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                        >Rule making process</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#FAQ">FAQ </a>
+                </li>
+                <li>
+                  <a href="#">Search </a>
+                </li>
+                <li>
+                  <a href="#">Contact </a>
+                </li>
+              </ul>
+              <div
+                class="nav navbar-nav navbar-right"
+                style="padding: 10px; display: flex; gap: 4px"
+              >
+                <a
+                  href="./login.html"
+                  style="background-color: #014e2c; color: #fff"
+                  class="btn anima anima-fade-right"
+                >
+                  Login
+                </a>
+                <a
+                  href="./register.html"
+                  class="btn btn-border anima anima-fade-right"
+                >
+                  Register
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="header-base">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="title-base text-left">
+              <h1>Register</h1>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <ol class="breadcrumb b">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="register.html">Register</a></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-empty">
+      <hr class="space m" />
+      <div
+        class="row"
+        style="
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100vw;
+          padding: 60px 0;
+        "
+      >
+        <div class="col-md-6">
+          <form action="" class="form-box form-ajax" method="post">
+            <div class="row">
+              <div class="col-md-6">
+                <p>Your name</p>
+                <input
+                  id="email"
+                  name="email"
+                  placeholder="Enter your full name"
+                  type="email"
+                  class="form-control form-value"
+                  required=""
+                />
+              </div>
+              <div class="col-md-6">
+                <p>Your email</p>
+                <input
+                  id="email"
+                  name="email"
+                  placeholder="Enter valid email"
+                  type="email"
+                  class="form-control form-value"
+                  required=""
+                />
+              </div>
+              <hr class="space s" />
+              <div class="col-md-6">
+                <p>Your Password</p>
+                <input
+                  id="email"
+                  name="email"
+                  placeholder="Password"
+                  type="password"
+                  class="form-control form-value"
+                  required=""
+                />
+              </div>
+              <div class="col-md-6">
+                <p>Confirm Password</p>
+                <input
+                  id="email"
+                  name="email"
+                  placeholder="Confirm Password"
+                  type="password"
+                  class="form-control form-value"
+                  required=""
+                />
+              </div>
+              <hr class="space s" />
+              <div class="col-md-6">
+                <p>Organization Name</p>
+                <input
+                  id="email"
+                  name="email"
+                  placeholder="Enter Organization Name"
+                  type="text"
+                  class="form-control form-value"
+                  required=""
+                />
+              </div>
+              <div class="col-md-6">
+                <p>Job Title</p>
+                <input
+                  id="email"
+                  name="email"
+                  placeholder="Enter your job title"
+                  type="text"
+                  class="form-control form-value"
+                  required=""
+                />
+              </div>
+              <hr class="space s" />
+              <div class="col-md-6">
+                <p>Industry</p>
+                <select
+                  name="nights"
+                  id="nights"
+                  class="form-control form-value"
+                >
+                  <option value="">Industry</option>
+                  <option value="Agriculture">Agriculture</option>
+                  <option value="Construction/Real Estate">
+                    Construction/Real Estate
+                  </option>
+                  <option value="Consumer Goods">Consumer Goods</option>
+                  <option value="Healthcare">Healthcare</option>
+                  <option value="ICT">ICT</option>
+                  <option value="Natural resources">Natural Resources</option>
+                  <option value="Oil and Gas">Oil and Gas</option>
+                  <option value="Services">Services</option>
+                  <option value="Others">Others</option>
+                </select>
+              </div>
+              <div class="col-md-6">
+                <p>Organization size</p>
+                <select
+                  name="adults"
+                  id="adults"
+                  class="form-control form-value"
+                  required=""
+                >
+                  <option value="">Organization Size</option>
+                  <option value="5-50">5-50</option>
+                  <option value="50-100">50-100</option>
+                  <option value="100-200">100-200</option>
+                  <option value="200-above">200 and above</option>
+                </select>
+              </div>
+              <hr class="space s" />
+              <div class="col-md-6">
+                <p>Your Location</p>
+                <select
+                  required
+                  name="yourLocation"
+                  id="yourLocation"
+                  class="form-control form-value"
+                >
+                  <option value="">Your Location</option>
+                  <option value="Abia">Abia</option>
+
+                  <option value="Adamawa ">Adamawa</option>
+
+                  <option value="Akwa Ibom ">Akwa Ibom</option>
+                  <option value=" Anambra">Anambra</option>
+                  <option value="Bauchi ">Bauchi</option>
+                  <option value="Bayelsa ">Bayelsa</option>
+                  <option value="Benue">Benue</option>
+                  <option value="Borno">Borno</option>
+                  <option value="Cross River">Cross River</option>
+                  <option value="Delta">Delta</option>
+                  <option value="Ebonyi">Ebonyi</option>
+                  <option value="Edo">Edo</option>
+                  <option value="Ekiti">Ekiti</option>
+                  <option value="Enugu">Enugu</option>
+                  <option value="FCT">FCT</option>
+                  <option value="Gombe">Gombe</option>
+                  <option value="Imo">Imo</option>
+                  <option value="Jigawa">Jigawa</option>
+                  <option value="Kaduna">Kaduna</option>
+                  <option value="Kano">Kano</option>
+                  <option value="Katsina">Katsina</option>
+                  <option value="Kebbi">Kebbi</option>
+                  <option value="Kogi">Kogi</option>
+                  <option value="Kwara">Kwara</option>
+                  <option value="Lagos">Lagos</option>
+                  <option value="Nassarawa">Nassarawa</option>
+                  <option value="Niger">Niger</option>
+                  <option value="Ogun">Ogun</option>
+                  <option value="Ondo">Ondo</option>
+                  <option value="Osun">Osun</option>
+                  <option value="Oyo">Oyo</option>
+                  <option value="Plateau">Plateau</option>
+                  <option value="Rivers">Rivers</option>
+                  <option value="Sokoto">Sokoto</option>
+                  <option value="Taraba">Taraba</option>
+                  <option value="Yobe">Yobe</option>
+                  <option value="Zamfara">Zamfara</option>
+                </select>
+              </div>
+              <div class="col-md-6">
+                <p>Gender</p>
+                <select
+                  name="gender"
+                  id="gender"
+                  class="form-control form-value"
+                  required
+                >
+                  <option value="">Select Your Gender</option>
+                  <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+                </select>
+              </div>
+              <hr class="space s" />
+              <div class="col-md-6">
+                <p>Your age</p>
+                <input
+                  id="yourAge"
+                  name="yourAge"
+                  placeholder="Enter age"
+                  type="text"
+                  class="form-control form-value"
+                  required=""
+                />
+              </div>
+              <div class="col-md-6">
+                <p>Your Occupation</p>
+                <input
+                  id="yourOccupation"
+                  name="yourOccupation"
+                  placeholder="Enter your Occupation"
+                  type="text"
+                  class="form-control form-value"
+                  required=""
+                />
+              </div>
+              <hr class="space s" />
+              <div class="col-md-12 text-center">
+                <button class="btn-sm btn" type="submit">Register</button>
+              </div>
+            </div>
+            <div class="success-box">
+              <div class="alert alert-success">
+                Congratulations. Your message has been sent successfully
+              </div>
+            </div>
+            <div class="error-box">
+              <div class="alert alert-warning">
+                Error, please retry. Your message has not been sent
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <i class="scroll-top scroll-top-mobile fa fa-sort-asc"></i>
+    <footer class="footer-base">
+      <div class="content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 footer-left">
+              <img
+                width="120"
+                src="images/cropped-cropped-NITDA-Logo-new-03.png"
+                alt=""
+              />
+              <hr class="space m" />
+              <p>Collins Street West 8007, San Fransico, United States.</p>
+              <hr />
+              <div class="tag-row">
+                <span>support@company.com</span>
+                <span>320-55500678</span>
+              </div>
+            </div>
+            <div class="col-md-4 footer-center text-left">
+              <ul class="fa-ul">
+                <li>
+                  <i class="fa-li im-phone"></i> +234 92 920 263,
+                  +2348168401851, +2340752420189
+                </li>
+                <li><i class="fa-li im-mail"></i> info@nitda.gov.ng</li>
+                <li>
+                  <i class="fa-li im-map"></i>No. 28, Port Harcourt Crescent,
+                  Off Gimbiya Street, P.M.B 564, Area 11 Garki, Abuja, Nigeria.
+                </li>
+              </ul>
+              <hr class="space s" />
+              <div class="btn-group social-group btn-group-icons">
+                <a target="_blank" href="#" data-social="share-facebook"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+                <a target="_blank" href="#" data-social="share-twitter"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+                <a target="_blank" href="#" data-social="share-google"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+                <a target="_blank" href="#" data-social="share-linkedin"
+                  ><i class="fa fa-youtube"></i
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-4 footer-right text-left">
+              <ul class="ul-squares">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Documents</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row copy-row">
+          <div class="col-md-12 copy-text">
+            Copyright © 2023 NITDA | All Rights Reserved
+          </div>
+        </div>
+      </div>
+      <link rel="stylesheet" href="scripts/iconsmind/line-icons.min.css" />
+      <script async src="scripts/bootstrap/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="scripts/imagesloaded.min.js"></script>
+      <script type="text/javascript" src="scripts/parallax.min.js"></script>
+      <script
+        type="text/javascript"
+        src="scripts/flexslider/jquery.flexslider-min.js"
+      ></script>
+      <script
+        type="text/javascript"
+        async
+        src="scripts/isotope.min.js"
+      ></script>
+      <script type="text/javascript" src="scripts/google.maps.min.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+      <script
+        type="text/javascript"
+        async
+        src="scripts/php/contact-form.js"
+      ></script>
+      <script
+        type="text/javascript"
+        async
+        src="scripts/jquery.progress-counter.js"
+      ></script>
+      <script
+        type="text/javascript"
+        async
+        src="scripts/jquery.tab-accordion.js"
+      ></script>
+      <script
+        type="text/javascript"
+        async
+        src="scripts/bootstrap/js/bootstrap.popover.min.js"
+      ></script>
+      <script
+        type="text/javascript"
+        async
+        src="scripts/jquery.magnific-popup.min.js"
+      ></script>
+      <script src="scripts/social.stream.min.js"></script>
+      <script src="scripts/smooth.scroll.min.js"></script>
+    </footer>
+  </body>
+</html>
