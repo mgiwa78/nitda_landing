@@ -39,18 +39,27 @@
         <link rel="stylesheet" href="/assets/skin.css" />
 
         <style>
-            .footer_list li p {
-                max-width: 402px;
+            .footer_box {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
                 width: max-content;
-                line-height: 8px;
+            }
+            .footer_container {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                justify-content: space-between;
+                align-items: center;
+                justify-items: center;
             }
             .footer_list li {
                 display: flex;
                 justify-items: start;
-                align-content: center;
+                align-content: start;
                 gap: 10px;
                 justify-content: flex-start;
-                align-items: center;
+                align-items: start;
             }
             .quick_links {
                 display: flex;
@@ -59,24 +68,37 @@
                 padding-left: 28px;
             }
             .quick_links li {
-                color: #737373;
-                text-align: justify;
+                color: #484848;
+            }
+
+            .footer_list li p {
+                color: #484848;
+                width: 290px;
                 font-family: Mukta Vaani;
                 font-size: 15px;
-                font-style: normal;
                 font-weight: 400;
                 line-height: 150%;
                 letter-spacing: -0.3px;
             }
-            .footer_list li p {
-                color: #484848;
-                text-align: justify;
-                font-family: Mukta Vaani;
-                font-size: 15px;
+
+            .footer_container h5 {
+                text-align: left;
+                color: #737373;
+                font-size: 18px;
                 font-style: normal;
-                font-weight: 400;
-                line-height: 150%;
-                letter-spacing: -0.3px;
+                font-weight: 500;
+                letter-spacing: -0.36px;
+            }
+            @media only screen and (min-width: 901px) {
+                .footer_container {
+                    gap: 90px;
+                    align-items: start;
+                    justify-content: center;
+                    flex-direction: row;
+                }
+                .footer_container h5 {
+                    text-align: left;
+                }
             }
         </style>
     </head>
@@ -290,15 +312,21 @@
         <footer class="footer-base">
             <div class="content">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-4 footer-left">
+                    <div class="row footer_container">
+                        <div class="footer_box footer-left">
                             <img
                                 width="120"
                                 src="assets/images/cropped-cropped-NITDA-Logo-new-03.png"
                                 alt=""
                             />
                             <hr class="space m" />
-                            <p style="width: 283px; height: 60px">
+                            <p
+                                style="
+                                    width: 283px;
+                                    height: 60px;
+                                    color: #484848;
+                                "
+                            >
                                 Lorem ipsum dolor sit amet consectetur. Viverra
                                 quis cursus ornare lectus. Tempor quisque sem
                                 urna vulputate hac non.
@@ -347,7 +375,7 @@
                                 </svg>
                             </div>
                         </div>
-                        <div class="col-md-4 footer-right text-left">
+                        <div class="footer_box text-left">
                             <span
                                 style="
                                     color: #737373;
@@ -367,18 +395,8 @@
                                 <li><a href="#">Contact</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-4 footer-center text-left">
-                            <span
-                                style="
-                                    color: #737373;
-                                    text-align: justify;
-                                    font-size: 18px;
-                                    font-style: normal;
-                                    font-weight: 500;
-                                    letter-spacing: -0.36px;
-                                "
-                                >Contacts</span
-                            >
+                        <div class="footer_box text-left">
+                            <h5>Contacts</h5>
                             <ul
                                 class="footer_list"
                                 style="padding: 0; list-style: none"
@@ -386,8 +404,8 @@
                                 <li>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        width="43"
-                                        height="43"
+                                        width="24"
+                                        height="24"
                                         viewBox="0 0 24 24"
                                         fill="none"
                                     >
